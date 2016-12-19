@@ -5,7 +5,7 @@ import {TodoState} from '../reducers/todos'
 import {ToggleTodoAction} from '../actions'
 
 export interface TodoListProps{
-  onTodoClick: (id:number) => ToggleTodoAction
+  onTodoClick: (id:number) => void
   todos:TodoState[]
 }
 
